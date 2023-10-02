@@ -1,4 +1,5 @@
 **Share an example of using the command with no arguments.**
+
 ![Image](1.png)
 
 Using "CD" without an argument takes us back to the home directory.
