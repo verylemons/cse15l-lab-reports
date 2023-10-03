@@ -22,15 +22,15 @@ Using "cat" without an argument makes it wait for an input. Once you type and in
 
 ![Image](4.png)
 
-Using  "cd" with a path to a directory as an argument changes the current directory to the chosen directory. You cannot access directories that are not in the current directory or else the terminal will display "no such directory or file."
+Using  "cd" with a path to a directory as an argument changes the current directory to the chosen directory. You cannot access directories that are not in the current directory or else the terminal will display an error message: "no such directory or file."
 
 ![Image](5.png)
 
-Using "ls" with a path to a directory as an argument shows all the files/folders that are within the chosen directory. You cannot use "ls" to access directories that are not within the current directory.
+Using "ls" with a path to a directory as an argument shows all the files/folders that are within the chosen directory. You cannot use "ls" to access directories that are not within the current directory or else the error message, "no such file or directory", will be displayed.
 
 ![Image](6.png)
 
-Using "cat" with a path to a directory as an argument prints information that the chosen directory is a directory. "cat" will tell you what the argument type is. Since we have a path to a directory as our argument, then "cat" will display that the chosen directory is a directory.
+Using "cat" with a path to a directory as an argument prints information that the chosen directory is a directory. "cat" will tell you what the argument type is. Since we have a path to a directory as our argument, then "cat" will display that the chosen directory is a directory. You cannot access directories outside the current one or else the error message, "no such file or directory", will be displayed.
 
 **Share an example of using the command with a path to a file as an argument.**
 *With a path to a file as an argument means that after typing in "cd", "ls", and "cat", you also type a file name after the initial command.
@@ -41,8 +41,8 @@ Using "cd" with a path to a file as an argument with print out the error message
 
 ![Image](8.png)
 
-Using "ls" with a path to a file as an argument will print out the file name. You cannot use "ls" on files that are outside of the current directory.
+Using "ls" with a path to a file as an argument will print out the file name. You cannot use "ls" on files that are outside of the current directory or else an error message will be displayed.
 
 ![Image](9.png)
 
-Using "cat" with a path to a file as an argument will print out the contents in the file. You cannot access files that are outside of the current directory.
+Using "cat" with a path to a file as an argument will print out the contents in the file. You cannot access files that are outside of the current directory or else an error message will be displayed.
