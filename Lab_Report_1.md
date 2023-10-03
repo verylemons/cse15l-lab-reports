@@ -3,7 +3,7 @@
 
 ![Image](1.png)
 
-Using "CD" without an argument takes us back to the home directory.
+Using "CD" without an argument takes us back to the home directory or the previous directory.
 
 ![Image](2.png)
 
