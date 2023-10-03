@@ -33,7 +33,7 @@ Using "ls" with a path to a directory as an argument shows all the files/folders
 Using "cat" with a path to a directory as an argument prints information that the chosen directory is a directory. "cat" will tell you what the argument type is. Since we have a path to a directory as our argument, then "cat" will display that the chosen directory is a directory. You cannot access directories outside the current one or else the error message, "no such file or directory", will be displayed.
 
 **Share an example of using the command with a path to a file as an argument.**
-*With a path to a file as an argument means that after typing in "cd", "ls", and "cat", you also type a file name after the initial command.
+*With a path to a file as an argument means that after typing in "cd", "ls", and "cat", you also type a file name after the initial command.*
 
 ![Image](7.png)
 
