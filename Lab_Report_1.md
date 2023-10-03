@@ -1,3 +1,6 @@
+**CSE 15L Lab Report 1**
+**Kwae Htoo, A17327141**
+
 **Share an example of using the command with no arguments.**
 *No argument means that you just type in "cd", "ls", and "cat" in the terminal and nothing after it.*
 
