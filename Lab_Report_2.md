@@ -4,10 +4,10 @@
 **PART 1**
 **Show the code for your StringServer, and two screenshots of using /add-message.**
 
-[Image](part_1_1.png)
+![Image](part_1_1.png)
 *Code for String Server*
 
-[Image](part_1_2.png)
+![Image](part_1_2.png)
 *Using add-message one time to add "Hello"*
 1. The handleRequest(URI url) was called.
 2. The relevant argument to the handleRequest method is the URI that the method takes in. The relevant fields are num, input, and inputs.      The num which is an integer is set to 0. The input which is a string type is an empty string. The inputs is an array list type and is 
@@ -18,7 +18,7 @@
        - num = 1;
        - inputs = {"1. Hello"}
 
-[Image](part_1_3.png)
+![Image](part_1_3.png)
 *Using add-message a second time to add "Banana"*
 1. The handleRequest(URI url) was called.
 2. The relevant argument to the handleRequest method is the URI that the method takes in. The relevant fields are now num = 1,
@@ -33,3 +33,15 @@
 **Using the command line, show with "ls" and take screenshots of:**
 
 **The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)**
+![Image](part_2_1.png)
+
+**The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)**
+![Image](part_2_2.png)
+
+**A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.**
+![Image](part_2_3.png)
+
+**PART 3**
+**In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.**
+
+Something that I learned that I didn't know before was creating and starting a server. It was less complicated than I thought it would be. All you need to do is create a server java file and the server you want to create and boom, you have a server.
