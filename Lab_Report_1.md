@@ -7,7 +7,7 @@
 
 ![Image](1.png)
 
-Using "CD" without an argument takes us back to the home directory or the previous directory.
+Using "CD" without an argument takes us back to the home directory or the previous directory. For example, if you are in the folder path home/images/myself. When you use "cd", you will be taken back to the previous directory which is images (home/images). However, if you are at the home directory, you cannot go back any further, therefore, if you use "cd", nothing will happen.
 
 ![Image](2.png)
 
@@ -15,7 +15,7 @@ Using "ls" without an argument lists all the files and folders in the current di
 
 ![Image](3.png)
 
-Using "cat" without an argument makes it wait for an input. Once you type and input something, it will print out what you just put on the terminal.
+Using "cat" without an argument makes it wait for an input. Once you type and input something, it will print out what you just put on the terminal. This is not an error because since there's no argument/file to read from, "cat" will read from the standard input instead which is what you type in the terminal.
 
 **Share an example of using the command with a path to a directory as an argument.**
 *With a path to a directory means that after typing "cd", "ls", and "cat", you also type in a directory name.*
@@ -30,7 +30,7 @@ Using "ls" with a path to a directory as an argument shows all the files/folders
 
 ![Image](6.png)
 
-Using "cat" with a path to a directory as an argument prints information that the chosen directory is a directory. "cat" will tell you what the argument type is. Since we have a path to a directory as our argument, then "cat" will display that the chosen directory is a directory. You cannot access directories outside the current one or else the error message, "no such file or directory", will be displayed.
+Using "cat" with a path to a directory as an argument prints information that the chosen directory is a directory. "cat" will tell you what the argument type is. Since we have a path to a directory as our argument, then "cat" will display that the chosen directory is a directory. You cannot use "cat" and add a directory that is outside the current directory. If you do so, this will cause an error and the error message "No such file or directory" will be displayed.
 
 **Share an example of using the command with a path to a file as an argument.**
 *With a path to a file as an argument means that after typing in "cd", "ls", and "cat", you also type a file name after the initial command.*
