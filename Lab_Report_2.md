@@ -8,6 +8,7 @@
 *Code for String Server*
 
 ![Image](part_1_2.png)
+
 *Using add-message one time to add "Hello"*
 1. The handleRequest(URI url) was called.
    Code Block:
