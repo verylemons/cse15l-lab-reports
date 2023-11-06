@@ -11,23 +11,12 @@
 *Using add-message one time to add "Hello"*
 1. The handleRequest(URI url) was called.
    Code Block:
-   String input = "";
-    int num = 0;
-    List<String> inputs = new ArrayList<>();
-    public String handleRequest(URI url) {
-        if (url.getPath().equals("/add-message")) {
-                String[] parameters = url.getQuery().split("=");
-                if (parameters[0].equals("s")) {
-                    input = parameters[1];
-                    num += 1;
-                    String inputSentence = num + ". " + input;
-                    inputs.add(inputSentence);
-                    return String.format("\n", inputs);
-                }
+   <img width="522" alt="Screen Shot 2023-11-05 at 3 59 45 PM" src="https://github.com/verylemons/cse15l-lab-reports/assets/116234889/f92d06ec-cc4f-406b-aabd-7d8c98a2cfb8">
+
    
-3. The relevant argument to the handleRequest method is the URI that the method takes in. The relevant fields are num, input, and inputs.      The num which is an integer is set to 0. The input which is a string type is an empty string. The inputs is an array list type and is 
+2. The relevant argument to the handleRequest method is the URI that the method takes in. The relevant fields are num, input, and inputs.      The num which is an integer is set to 0. The input which is a string type is an empty string. The inputs is an array list type and is 
    empty.
-4. For the first ever request, and in this case is "Hello". The input is set to "Hello". The number is incremented so that means num is now 
+3. For the first ever request, and in this case is "Hello". The input is set to "Hello". The number is incremented so that means num is now 
    equal to 1. In the array list inputs, the string "1. Hello" is added to the list. In conclusion, the fields are now:
        - input = "Hello"
        - num = 1;
