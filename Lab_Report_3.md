@@ -35,6 +35,7 @@ An input that doesn’t induce a failure, as a JUnit test and any associated cod
 ```
 
 The symptom, as the output of running the tests:
+
 <img width="647" alt="Screen Shot 2023-11-05 at 4 35 21 PM" src="https://github.com/verylemons/cse15l-lab-reports/assets/116234889/9a3c9521-94c6-498b-819f-a2531c251bb7">
 
 <img width="442" alt="Screen Shot 2023-11-05 at 4 35 47 PM" src="https://github.com/verylemons/cse15l-lab-reports/assets/116234889/af4fb472-547e-4b88-8898-3fe4fc4f6b65">
