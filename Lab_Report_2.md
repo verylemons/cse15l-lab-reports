@@ -40,11 +40,10 @@
 - Out of the three files, the private key is **id_rsa**.
 
 **The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)**
+<img width="703" alt="Screen Shot 2023-11-05 at 4 06 33 PM" src="https://github.com/verylemons/cse15l-lab-reports/assets/116234889/01117f30-6c2e-4e5a-a5f3-7bc14567a48d">
 ![Image](part_2_2.png)
 
 **A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.**
-<img width="703" alt="Screen Shot 2023-11-05 at 4 06 33 PM" src="https://github.com/verylemons/cse15l-lab-reports/assets/116234889/01117f30-6c2e-4e5a-a5f3-7bc14567a48d">
-
 ![Image](part_2_3.png)
 
 **PART 3**
