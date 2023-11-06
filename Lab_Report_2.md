@@ -37,6 +37,7 @@
 
 **The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)**
 ![Image](part_2_1.png)
+- Out of the three files, the private key is "id_rsa".
 
 **The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)**
 ![Image](part_2_2.png)
