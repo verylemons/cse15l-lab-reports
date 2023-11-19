@@ -1,5 +1,6 @@
 **LAB REPORT 4**
 **Kwae Htoo, A17327141**
+
 **4. Log into ieng6**
 
 <img width="690" alt="Screen Shot 2023-11-19 at 11 54 53 AM" src="https://github.com/verylemons/cse15l-lab-reports/assets/116234889/7bfc2b4a-3d87-4c0f-8e93-b2dc992f74e8">
@@ -23,6 +24,6 @@ Keys/commands pressed: javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.ja
 
 **7. Edit the code file to fix the failing test**
 
-Keys/commands pressed: "GG" /<up/>/<up/>/<up/>/<up/>/<up/>/<up/>/<right/><right/><right/><right/><right/><right/><right/><right/><right/><right/><right/> "a" /<backspace/> "2" /<escape/> ":wq"
+Keys/commands pressed: "GG" /<up/> /<up/> /<up/> /<up/> /<up/> /<up/> /<right/> /<right/> /<right/> /<right/> /<right/> /<right/> /<right/> /<right/> /<right/> /<right/> /<right/> "a" /<backspace/> "2" /<escape/> ":wq"
 - I used the "vim ListExamples.java" command to enter into the vim editor to edit the file that needed fixing. Then I typed "GG" to go to the last line in the file because the part that I needed to fix was closer to the end. After, I pressed the /<up/> key 6 times to go the line that needed fixing. I needed to change index1 to index2, therefore, I pressed the /<right/> key 11 times to go on top of the "1" in "index2". After I pressed "a" to enter insert mode and edit the place where I was at. I pressed the /<backspace/> key to delete the "1" and change it into a 2. Then I pressed the /<escape/> key to return to normal mode. Finally, I typed ":wq" to save my changes and exit vim.
 
