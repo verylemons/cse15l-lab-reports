@@ -17,15 +17,22 @@ Keys/commands pressed: git clone git@github.com:verylemons/lab7.git \<enter\>
 
 **6. Run the tests, demonstrating that they fail**
 
-<img width="620" alt="Screen Shot 2023-11-19 at 12 56 56 PM" src="https://github.com/verylemons/cse15l-lab-reports/assets/116234889/e6196afd-9ccf-4f7a-aad7-33b1ab307f93">
+<img width="615" alt="Screen Shot 2023-11-19 at 1 05 07 PM" src="https://github.com/verylemons/cse15l-lab-reports/assets/116234889/c60f6bfa-d068-4207-8c05-f3b9bbf12f2c">
 
 Keys/commands pressed: javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java /<enter/> bash test.sh /<enter/>
 - First, I compiled the files by using the command, javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java, then pressing enter. After, to run the tests, I used the bash command, bash test.sh, then pressed enter. This showed that there was one failure.
 
 **7. Edit the code file to fix the failing test**
 
-<img width="349" alt="Screen Shot 2023-11-19 at 1 03 21 PM" src="https://github.com/verylemons/cse15l-lab-reports/assets/116234889/ba82e3bf-5347-43fe-8b0a-de0f638ce588">
+<img width="620" alt="Screen Shot 2023-11-19 at 12 56 56 PM" src="https://github.com/verylemons/cse15l-lab-reports/assets/116234889/e6196afd-9ccf-4f7a-aad7-33b1ab307f93">
 
 Keys/commands pressed: "GG" \<up\>\<up\>\<up\>\<up\>\<up\>\<up\>\<right\>\<right\>\<right\>\<right\>\<right\>\<right\>\<right\>\<right\>\<right\>\<right\>\<right\> "a" \<backspace\> "2" \<escape\> ":wq"
 - I used the "vim ListExamples.java" command to enter into the vim editor to edit the file that needed fixing. Then I typed "GG" to go to the last line in the file because the part that I needed to fix was closer to the end. After, I pressed the \<up\> key 6 times to go the line that needed fixing. I needed to change index1 to index2, therefore, I pressed the \<right\> key 11 times to go on top of the "1" in "index2". After I pressed "a" to enter insert mode and edit the place where I was at. I pressed the \<backspace\> key to delete the "1" and change it into a 2. Then I pressed the \<escape\> key to return to normal mode. Finally, I typed ":wq" to save my changes and exit vim.
+
+**8. Run the tests, demonstrating that they now succeed**
+
+<img width="349" alt="Screen Shot 2023-11-19 at 1 03 21 PM" src="https://github.com/verylemons/cse15l-lab-reports/assets/116234889/ba82e3bf-5347-43fe-8b0a-de0f638ce588">
+
+ Keys/commands pressed: \<up\>\<up\>\<up\>\<enter\>
+ - The "bash test.sh" command was 3 up in my history in the terminal, therefore, I pressed the \<up\> key three times to access it and then pressed the \<enter\> key to run the tests.
 
