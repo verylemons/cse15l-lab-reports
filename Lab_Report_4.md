@@ -36,3 +36,9 @@ Keys/commands pressed: "GG" \<up\>\<up\>\<up\>\<up\>\<up\>\<up\>\<right\>\<right
  Keys/commands pressed: \<up\>\<up\>\<up\>\<enter\>
  - The "bash test.sh" command was 3 up in my history in the terminal, therefore, I pressed the \<up\> key three times to access it and then pressed the \<enter\> key to run the tests.
 
+**9. Commit and push the resulting change to your Github account (you can pick any commit message!)**
+
+<img width="506" alt="Screen Shot 2023-11-19 at 1 11 27 PM" src="https://github.com/verylemons/cse15l-lab-reports/assets/116234889/3b406fd8-45d9-4590-9441-9fdd83a2ff1f">
+
+Keys/commands pressed: "git status" "git add ListExamples.java" "git commit -m 'lab 7 report commit'"
+- I used the "git status command to see what I needed to commit. Then, I used "git add ListExamples.java" to stage the file to commit. Finally, I used the command "git commit -m 'lab 7 report commit'" to commit the file and I added the message "lab 7 report commit".
