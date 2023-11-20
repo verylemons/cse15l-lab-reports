@@ -62,6 +62,8 @@ After Code (fixed):
   }
 ```
 
+- The fix to the was making the loop only loop for half the array length. Then, inside the for loop, we create a temporary variable that is equal to the index at i. We then swap the index at i to the last index and we change the last index to the index at i.
+
 **PART 2**
 - The command that I will choose is **find**.
 
@@ -75,7 +77,10 @@ technical/911report/chapter-1.txt
 find technical -iname "GovERNMENT"
 technical/government
 ```
+- Using the -iname command searches for the file or directory that has the specific name that you inputted and it ignores capitals or lowercase (case insensitive).
 - This is useful because if you know the name of file/directory but you don't remember where there are capitals, you can use find -iname. It is case-insensitive.
+- In the example, I used -iname and capitalized the name of a file in technical/911report and it returned the file I wanted to find. It ignored my capitalization.
+- If there is no result, that means the file/directory that you were trying to search for doesnt exist.
 
 ```
 find technical -maxdepth 1 -type d
@@ -89,6 +94,9 @@ technical/911report
 find technical/government -maxdepth 1 -type f
 // nothing gets printed because because if you go 1 depth into technical/government, there is no files.
 ```
+- Using max depth limit the depth of searches by inputting the number of directories you want to find to descend into after the starting point. It used to recursively search for files and directories in a given directory and its subdirectories.
+- It's good for searching quickly for something without having to go through all the subdirectories.
+- In the example, I used -maxdepth 1 for directories and it resulted in the immediate directories of technical being printed because I went one level inside technical. 
 - This is useful because it limits how deep you want to go inside a directory. When there a directories inside directories, you can use
   -maxdepth to limit how many times you want traverse through directories inside another directory.
 
@@ -100,7 +108,9 @@ find technical -type d -empty
 find technical -type f -empty
 // nothing gets printed out because no files within the directories inside of technical are empty
 ```
-- This is useful for finding empty files or directories. If there are empty files/directories, you can delete them to declutter because what's the use of having an empty file/directory if it's not going to be used.
+- If you want to know what files or directories are empty, the -empty command is used to find empty files or directories. You use it to check for any empty directories or files.
+- In the examples, I used the command to try to find empty files or directories inside technical, however, sinze there aren't any, there was no result.
+- If there are empty files/directories, you can delete them to declutter because what's the use of having an empty file/directory if it's not going to be used.
 
 ```
 find technical -type f -size +100k
@@ -141,6 +151,8 @@ technical/government/Media
 technical/plos
 technical/biomed
 ```
+- The -size command is used to find files/directories that are greater or less than a certain size that you input.
+- In the two examples, I used -size +100K to find files that were greater than 100 kilobytes. It then listed all the files inside technical that were greater than that size. It went through all the directories as well.
 - This is useful for finding files/directories that are greater or less than a certain size. You can use this to find huge files or small files that you may want to delete (either it takes up too much space or it's useless).
 
 
