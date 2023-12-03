@@ -287,3 +287,9 @@ java -cp .:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar org.junit.runner
 
 The ".." makes it so that the path goes back one directory.
 
+
+**PART 2**
+
+*In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn’t know before. It could be a technical topic we addressed specifically, something cool you found out on your own building on labs, something you learned from a tutor or classmate, and so on. It doesn’t have to be specifically related to a lab writeup, we just want to hear about cool things you learned!*
+
+I think the coolest thing I learned in the second half of the quarter that I didn't know was the VIM editor. Aside from the fact that you could do so much on the terminal, I did not know that you could edit files from the terminal itself using VIM. I think VIM is a really neat thing. I found it fascinating that you can edit code on another computer from the terminal without having to open the code through an IDE. Maneuvering through lines of code through VIM is a little bit difficult, but I believe the payoff with be big. Overall, learning about VIM and the amount of stuff you can do on the terminal is probably the best thing I've learned during the second half of the quarter.
