@@ -272,3 +272,18 @@ public class TestListExamples {
 ```
 bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected
 ```
+
+- **A description of what to edit to fix the bug**
+
+We needed to edit line 25 and 35 because thats the line that compiles the code and runs the junit tests on the student submissions. The problem was that the path to finding the lib file was wrong. Since there was a cd command right before javac and java commands in the bash script, the lib file could not be found. Therefore, the solution to this bug/problem would be adding ".." before the /lib/hamcrest-core-1.3.jar and /lib/junit-4.13.2.jar org.junit.runner.JUnitCore in both lines 25 and 25.
+
+The resulting, corrected, code would look like this.
+```
+javac -cp .:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar *.java
+```
+```
+java -cp .:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples > results.txt
+```
+
+The ".." makes it so that the path goes back one directory.
+
