@@ -12,7 +12,7 @@ Keys/commands pressed: ssh cs15lfa23an@ieng6.ucsd.edu \<enter\>
 
 <img width="735" alt="Screen Shot 2023-11-19 at 12 01 38 PM" src="https://github.com/verylemons/cse15l-lab-reports/assets/116234889/0d2a272e-f928-425a-b664-4d423423fe8b">
 
-Keys/commands pressed: git clone git@github.com:verylemons/lab7.git \<enter\>
+Keys/commands pressed: ```git clone git@github.com:verylemons/lab7.git``` ```\<enter\>```
 - I cloned my fork of the lab7 directory using the ssh url by using the command, git clone git@github.com:verylemons/lab7.git, then pressing enter.
 
 **6. Run the tests, demonstrating that they fail**
