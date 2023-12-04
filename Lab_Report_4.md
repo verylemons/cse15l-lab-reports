@@ -19,7 +19,7 @@ Keys/commands pressed: ```git clone git@github.com:verylemons/lab7.git``` ```<en
 
 <img width="615" alt="Screen Shot 2023-11-19 at 1 05 07 PM" src="https://github.com/verylemons/cse15l-lab-reports/assets/116234889/c60f6bfa-d068-4207-8c05-f3b9bbf12f2c">
 
-Keys/commands pressed: ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` ```<enter>``` ```bash test.sh``` ```/<enter/>```
+Keys/commands pressed: ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` ```<enter>``` ```bash test.sh``` ```<enter>```
 - First, I compiled the files by using the command, ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```, then pressing ```<enter>```. After, to run the tests, I used the bash command, ```bash test.sh```, then pressed ```<enter>```. This showed that there was one failure.
 
 **7. Edit the code file to fix the failing test**
@@ -40,5 +40,7 @@ Keys/commands pressed: ```vim ListExamples.java``` ```GG``` ```<up><up><up><up><
 
 <img width="506" alt="Screen Shot 2023-11-19 at 1 11 27 PM" src="https://github.com/verylemons/cse15l-lab-reports/assets/116234889/3b406fd8-45d9-4590-9441-9fdd83a2ff1f">
 
-Keys/commands pressed: ```git status``` ```git add ListExamples.java``` ```git commit -m "lab 7 report commit"```
-- I used the "git status command to see what I needed to commit. Then, I used "git add ListExamples.java" to stage the file to commit. Finally, I used the command "git commit -m 'lab 7 report commit'" to commit the file and I added the message "lab 7 report commit".
+<img width="497" alt="Screen Shot 2023-12-03 at 6 40 34 PM" src="https://github.com/verylemons/cse15l-lab-reports/assets/116234889/2c9f1f99-d27a-420d-bc16-2e1b9bd63a15">
+
+Keys/commands pressed: ```git status``` ```git add ListExamples.java``` ```git commit -m "lab 7 report commit"``` ```git status``` ```git push``` ```git status```
+- I used the ```git status``` command to see what I needed to commit. Then, I used ```git add ListExamples.java``` to stage the file to commit. I used the command ```git commit -m "lab 7 report commit"``` to commit the file and I added the message "lab 7 report commit". Finally, I typed the command ```git push``` to push to the main branch.
